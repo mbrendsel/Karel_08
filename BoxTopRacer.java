@@ -9,6 +9,7 @@ public class BoxTopRacer extends Racer {
 		public BoxTopRacer(int y) {   
             super(y);
    }
+   	@Override
 	public void jumpRight() {
         turnLeft();
         int n = 0;
